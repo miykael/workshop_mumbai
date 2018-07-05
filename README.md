@@ -27,6 +27,5 @@ The docker container that we will be using for this workshop contains the raw da
 To run the workshop on your machine, you need to have [Docker](https://miykael.github.io/nipype_tutorial/notebooks/introduction_docker.html#Install-Docker) installed. Once this is done, proceed with the following steps:
 
 1. Run the following command in a terminal: ```docker run -it --rm -p 8888:8888 miykael/workshop_mumbai```
-1. Copy paste the link that looks like ```http://20f109eba8e4:8888/?token=0312c1ef3b61d7a44ff5346d3d150c23249a548850e13868
-``` into your webbrowser.
+1. Copy paste the link that looks like ```http://20f109eba8e4:8888/?token=0312c1ef3b61d7a44ff5346d3d150c23249a548850e13868``` into your webbrowser.
 1. Replace the hash number ```20f109eba8e4``` after `http://` with `localhost` or your local IP (probably `192.168.100.0`) if you're on windows.
