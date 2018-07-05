@@ -23,6 +23,7 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --copy notebooks "/home/neuro/notebooks" \
            --copy slides "/home/neuro/slides" \
            --copy program.ipynb "/home/neuro/program.ipynb" \
+           --copy test_notebooks.py "/home/neuro/test_notebooks.py" \
            --run 'mkdir -p ~/.jupyter && echo c.NotebookApp.ip = \"0.0.0.0\" > ~/.jupyter/jupyter_notebook_config.py' \
            --workdir /home/neuro \
            --user=root \
