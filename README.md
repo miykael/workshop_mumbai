@@ -1,4 +1,4 @@
-# Workshop Mumbai - July 13th, 2018
+# Workshop Mumbai - 2018
 
 This repository contains all documents for the workshop in Mumbai, July 2018.
 
