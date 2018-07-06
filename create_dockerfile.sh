@@ -2,7 +2,7 @@
 docker run --rm kaczmarj/neurodocker:master generate docker \
            --base neurodebian:stretch-non-free \
            --pkg-manager apt \
-           --install ants fsl gcc g++ graphviz tree less ncdu tig swig wget \
+           --install fsl gcc g++ graphviz tree less ncdu tig swig wget \
            --add-to-entrypoint "source /etc/fsl/fsl.sh" \
            --user=neuro \
            --miniconda miniconda_version="4.3.31" \
@@ -20,7 +20,7 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --run 'rm -rf /opt/conda/pkgs/*' \
            --user=neuro \
            --run 'curl -L -o /data/dataset.zip https://www.dropbox.com/s/7ayjgwrlp3xa8jq/dataset.zip?dl=1 && unzip /data/dataset.zip -d /data/ && rm /data/dataset.zip' \
-           --run 'curl -L -o /output/datasink.zip https://www.dropbox.com/s/6o49kokagze9nnk/datasink.zip?dl=1 && unzip /output/datasink.zip -d /output/ && rm /output/datasink.zip' \
+           --run 'curl -L -o /output/datasink.zip https://www.dropbox.com/s/rrc9ojtolft8pnv/datasink.zip?dl=1 && unzip /output/datasink.zip -d /output/ && rm /output/datasink.zip' \
            --copy templates "/templates" \
            --copy notebooks "/home/neuro/notebooks" \
            --copy slides "/home/neuro/slides" \
