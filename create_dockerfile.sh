@@ -17,6 +17,7 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --user=root \
            --run 'mkdir /data && chmod 777 /data && chmod a+s /data' \
            --run 'mkdir /output && chmod 777 /output && chmod a+s /output' \
+           --run 'mkdir /templates && chmod 777 /templates && chmod a+s /templates' \
            --run 'rm -rf /opt/conda/pkgs/*' \
            --user=neuro \
            --run 'curl -L -o /data/dataset.zip https://www.dropbox.com/s/7ayjgwrlp3xa8jq/dataset.zip?dl=1 && unzip /data/dataset.zip -d /data/ && rm /data/dataset.zip' \
