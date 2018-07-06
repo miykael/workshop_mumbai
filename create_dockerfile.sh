@@ -19,7 +19,9 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --run 'mkdir /output && chmod 777 /output && chmod a+s /output' \
            --run 'rm -rf /opt/conda/pkgs/*' \
            --user=neuro \
-           --run 'curl -L -o /data/dataset.zip https://www.dropbox.com/s/q5xxcb98j0w8g96/dataset.zip?dl=1 && unzip /data/dataset.zip -d /data/ && rm /data/dataset.zip' \
+           --run 'curl -L -o /data/dataset.zip https://www.dropbox.com/s/7ayjgwrlp3xa8jq/dataset.zip?dl=1 && unzip /data/dataset.zip -d /data/ && rm /data/dataset.zip' \
+           --run 'curl -L -o /output/datasink.zip https://www.dropbox.com/s/6o49kokagze9nnk/datasink.zip?dl=1 && unzip /output/datasink.zip -d /output/ && rm /output/datasink.zip' \
+           --copy templates "/templates" \
            --copy notebooks "/home/neuro/notebooks" \
            --copy slides "/home/neuro/slides" \
            --copy program.ipynb "/home/neuro/program.ipynb" \
