@@ -5,7 +5,7 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --install fsl gcc g++ graphviz tree less ncdu tig swig wget \
            --add-to-entrypoint "source /etc/fsl/fsl.sh" \
            --user=neuro \
-           --miniconda miniconda_version="4.3.31" \
+           --miniconda \
              conda_install="python=3.6 pytest jupyter jupyterlab jupyter_contrib_nbextensions
                             traits pandas matplotlib scikit-learn scikit-image seaborn nbformat nb_conda" \
              pip_install="https://github.com/nipy/nipype/tarball/master
