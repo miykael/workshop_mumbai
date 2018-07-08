@@ -10,7 +10,7 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
                             traits pandas matplotlib scikit-learn scikit-image seaborn nbformat nb_conda" \
              pip_install="https://github.com/nipy/nipype/tarball/master
                           https://github.com/INCF/pybids/tarball/master
-                          nilearn nibabel nipy duecredit nbval pymvpa2 keras tensorflow" \
+                          nilearn nibabel nipy duecredit nbval pymvpa2 keras tensorflow pybids" \
              create_env="neuro" \
              activate=True \
            --run-bash "source activate neuro && jupyter nbextension enable exercise2/main && jupyter nbextension enable spellchecker/main" \
