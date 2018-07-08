@@ -21,7 +21,7 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --run 'rm -rf /opt/conda/pkgs/*' \
            --user=neuro \
            --run 'curl -L -o /data/dataset.zip https://www.dropbox.com/s/nc35aqbwnpzv7wr/dataset.zip?dl=1 && unzip /data/dataset.zip -d /data/ && rm /data/dataset.zip' \
-           --run 'curl -L -o /output/datasink.zip https://www.dropbox.com/s/rrc9ojtolft8pnv/datasink.zip?dl=1 && unzip /output/datasink.zip -d /output/ && rm /output/datasink.zip' \
+           --run 'curl -L -o /output/datasink.zip https://www.dropbox.com/s/torun2z8vchyhsd/datasink.zip?dl=1 && unzip /output/datasink.zip -d /output/ && rm /output/datasink.zip' \
            --copy templates "/templates" \
            --copy notebooks "/home/neuro/notebooks" \
            --copy slides "/home/neuro/slides" \
