@@ -6,13 +6,13 @@ Most of it's content is based on the [Nipype Tutorial](https://miykael.github.io
 
 The webinar will cover:
 
-1. [Conda and Docker]()
-1. [Dataset handling/BIDS introduction]()
-1. [Nilearn & Nibabel]()
-1. [Introduction to nipype]()
-1. [Nipype basics]()
-1. [Nipype hands-on]()
-1. [Machine learning with nilearn, PyMPVA & keras]()
+1. Conda and Docker
+1. Dataset handling/BIDS introduction
+1. Nilearn & Nibabel
+1. Introduction to Nipype
+1. Nipype basics
+1. Nipype hands-on
+1. Machine learning with nilearn, PyMPVA & keras
 
 # How to access the workshop content
 
