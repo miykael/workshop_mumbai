@@ -20,7 +20,7 @@ There are three ways on how you can access the content of this workshop.
 
 ## Via Jupyter nbviewer (non-interactive)
 
-All the notebooks and slides can be looked at via [Jupyter nbviewer](https://nbviewer.jupyter.org/github/miykael/workshop_mumbai/blob/master/program.ipynb). Like this you can see everything but cannot really interact with the scripts or run the code.
+All the notebooks (but not the slides) can be looked at via [Jupyter nbviewer](https://nbviewer.jupyter.org/github/miykael/workshop_mumbai/blob/master/program.ipynb). Like this you can see everything but cannot really interact with the scripts or run the code.
 
 ## Via Docker (interactive)
 
