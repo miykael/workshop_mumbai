@@ -18,6 +18,7 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --run 'mkdir /data && chmod 777 /data && chmod a+s /data' \
            --run 'mkdir /output && chmod 777 /output && chmod a+s /output' \
            --run 'mkdir /templates && chmod 777 /templates && chmod a+s /templates' \
+           --run 'chown -R neuro /home/neuro' \
            --run 'rm -rf /opt/conda/pkgs/*' \
            --user=neuro \
            --run 'curl -J -L -o /data/dataset.zip https://www.dropbox.com/sh/fvvium3z3l0wedo/AACkFi2mhWZkcqwmHjO8WwUra?dl=1 && mkdir /data/dataset && unzip /data/dataset.zip -d /data/dataset/ -x /' \
@@ -28,8 +29,6 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --copy program.ipynb "/home/neuro/program.ipynb" \
            --copy test_notebooks.py "/home/neuro/test_notebooks.py" \
            --run 'mkdir -p ~/.jupyter && echo c.NotebookApp.ip = \"0.0.0.0\" > ~/.jupyter/jupyter_notebook_config.py' \
-           --workdir /home/neuro \
-           --user=root \
-           --run 'chown -R neuro /home/neuro' \
            --user=neuro \
+           --workdir /home/neuro \
            --cmd "jupyter-notebook" > Dockerfile
