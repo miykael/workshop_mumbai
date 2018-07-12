@@ -29,6 +29,10 @@ docker run --rm kaczmarj/neurodocker:master generate docker \
            --copy program.ipynb "/home/neuro/program.ipynb" \
            --copy test_notebooks.py "/home/neuro/test_notebooks.py" \
            --run 'mkdir -p ~/.jupyter && echo c.NotebookApp.ip = \"0.0.0.0\" > ~/.jupyter/jupyter_notebook_config.py' \
+           --user=root \
+           --run 'chown -R neuro /home/neuro' \
            --user=neuro \
            --workdir /home/neuro \
            --cmd "jupyter-notebook" > Dockerfile
+
+
