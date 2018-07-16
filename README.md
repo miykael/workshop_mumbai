@@ -1,5 +1,15 @@
 # Workshop Mumbai - 2018
 
+[![CircleCi](https://img.shields.io/circleci/project/miykael/workshop_mumbai/master.svg?maxAge=2592000)](https://circleci.com/gh/miykael/workshop_mumbai/tree/master)
+[![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_mumbai.svg)](https://github.com/miykael/workshop_mumbai/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_mumbai.svg)](https://github.com/miykael/workshop_mumbai/pulls/)
+[![GitHub contributors](https://img.shields.io/github/contributors/miykael/workshop_mumbai.svg)](https://GitHub.com/miykael/workshop_mumbai/graphs/contributors/)
+[![GitHub Commits](https://github-basic-badges.herokuapp.com/commits/miykael/workshop_mumbai.svg)](https://github.com/miykael/workshop_mumbai/commits/master)
+[![GitHub size](https://github-size-badge.herokuapp.com/miykael/workshop_mumbai.svg)](https://github.com/miykael/workshop_mumbai/archive/master.zip)
+[![Docker Hub](https://img.shields.io/docker/pulls/miykael/workshop_mumbai.svg?maxAge=2592000)](https://hub.docker.com/r/miykael/workshop_mumbai/)
+[![GitHub HitCount](http://hits.dwyl.io/miykael/workshop_mumbai.svg)](http://hits.dwyl.io/miykael/workshop_mumbai)
+
+
 This repository contains all documents for the workshop in Mumbai, July 2018.
 
 Most of it's content is based on the [Nipype Tutorial](https://miykael.github.io/nipype_tutorial/) and the [Workshop in Cambridge](https://github.com/miykael/workshop_cambridge) in September 2018. But many things were shortend or left out, to fit everything in a 4h webinar.
