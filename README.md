@@ -1,6 +1,6 @@
 # Workshop Mumbai - 2018
 
-[![CircleCi](https://img.shields.io/circleci/project/miykael/workshop_mumbai/master.svg?maxAge=2592000)](https://circleci.com/gh/miykael/workshop_mumbai/tree/master)
+[![CircleCi](https://circleci.com/gh/miykael/workshop_mumbai.svg?style=shield)](https://circleci.com/gh/miykael/workshop_mumbai/tree/master)
 [![GitHub issues](https://img.shields.io/github/issues/miykael/workshop_mumbai.svg)](https://github.com/miykael/workshop_mumbai/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/miykael/workshop_mumbai.svg)](https://github.com/miykael/workshop_mumbai/pulls/)
 [![GitHub contributors](https://img.shields.io/github/contributors/miykael/workshop_mumbai.svg)](https://GitHub.com/miykael/workshop_mumbai/graphs/contributors/)
